@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "src/types/",
+      "./node_modules/@types"
+    ],
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["./src/*"],
+        "@root/*": ["./*"]
+    },
+    "types": [
+      "node",
+      "jest"
+    ]
+  },
+  "exclude": ["node_modules"]
+}
